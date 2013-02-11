@@ -24,8 +24,8 @@ test:
 
 all:
   .settings:
-    # Form security secret (CSRF protection)
-    csrf_secret:            5450ca68f4d0e8ac89d0265cde80fe0bb8eefc26
+    # フォームセキュリティの秘密の文字列 (CSRF 保護)
+    csrf_secret: Unique$ecret
 
     # Output escaping settings
     escaping_strategy:      true
